@@ -1,0 +1,45 @@
+.search input[type="text"] {
+    padding:                    1.5rem;
+    border:                     none;
+    
+  }
+  
+  .search button[type="submit"] {
+    padding:                    5px 10px;
+    margin-left:                5px;
+    background:              #ffffff;
+    border:                     none;
+    border-radius:              1.25rem;
+    color:                   #fff;
+    cursor:                     pointer;
+    border:                     none;
+  }
+
+
+  .buscar__nav{
+    
+    width:                             20.563rem;
+    height:                            2.5rem;
+    background:                     #F5F5F5;
+    color:                          #A2A2A2;
+    border-style:                      none;
+    border-radius:                     1.25rem;
+  }
+/*
+  .buscar__nav__button{
+    width:                          8.125rem;
+    height:                         1.875rem;
+    background:                   #2A7AE4;
+    color:                        #ffffff;
+    border:                        none;
+    align-items:                   center;
+    padding:                      .33rem;
+    border-radius:                 1.25rem;
+  }*/
+
+  .buscar__nav__button:hover{
+    
+    background:             none;
+    border:                 1px solid #2A7AE4;
+    color:               #2A7AE4 ;
+  }

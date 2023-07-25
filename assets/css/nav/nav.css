@@ -1,0 +1,11 @@
+nav {
+    display:                flex;
+    justify-content:        space-between;
+    align-items:            center;
+    padding:                3rem;
+    background-color:    #ffffff;
+    color:               #2A7AE4;
+    padding:               65px;
+  }
+  
+  

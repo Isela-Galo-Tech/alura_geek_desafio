@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+.banner__titulo{
+    color:                  #fdfdfd;
+    font-family:              'Raleway';
+    font-size:                 52px;
+    font-weight:               bold;
+    position:                  absolute;
+    left:                      28%;
+    top:                       30%;
+    text-align:                center;
+    transform:                 translate(-50%, -50%);
+    width:                     100%;
+}

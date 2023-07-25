@@ -1,0 +1,21 @@
+.banner__btn{
+    
+    width:                      8.063rem;
+    height:                     3.188rem;
+    color:                  #fdfdfd;
+    background:             #2A7AE4;
+    border:                    none;
+    font-family:              'Raleway';
+    font-size:                 1rem;
+    font-weight:               normal;
+    position:                  absolute;
+    left:                      17%;
+    top:                       70%;
+    text-align:                center;
+    transform:                 translate(-50%, -50%);
+}
+
+.banner__btn:hover{
+    background:                 none;
+    border:                     0.125rem solid #2A7AE4;
+}

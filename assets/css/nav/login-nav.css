@@ -1,0 +1,26 @@
+.login input[type="text"],
+.login input[type="password"] {
+  padding:              0.313rem;
+  margin-right:         0.313rem;
+  border:               none;
+  border-radius:        1.25rem;
+}
+
+.login button[type="submit"] {
+  padding:                  5px 10px;
+  background:            #ffffff;
+  border:                   none;
+  border-radius:            0.188rem;
+  color:                 #fff;
+  cursor:                   pointer;
+}
+.button__nav__iniciarsesion{
+    width:                  11.375rem;
+    height:                 3.188rem;
+    background:             none;
+    border:                 1px solid #2A7AE4;
+}
+.button__nav__iniciarsesion:hover{
+    background:         #2A7AE4;
+    color:              #ffffff;
+}

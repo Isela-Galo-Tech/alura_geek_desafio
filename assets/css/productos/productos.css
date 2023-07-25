@@ -1,0 +1,272 @@
+body{
+  background: #F5F5F5;
+}
+
+
+.title__productos__starwars{
+  padding:              13px;
+  display:              flex;
+  width:                1133px;
+  justify-content:      space-between;
+  align-items:          center;
+}
+
+
+.title__productos__diversos{
+  width: 100%;
+}
+
+h2{
+  font-size:                38px;
+  margin: 0 auto;
+}
+
+a{
+  text-decoration:          none;
+  font-family:             'Raleway';
+  font-size:                16px;
+}
+
+.section__starwars {
+  display:                  flex;
+  justify-content:          center; 
+  align-items:              flex-start;  
+  flex-direction:           row; 
+  flex-wrap:                wrap; 
+  align-content:            stretch;
+  background:            #F5F5F5;
+  height:                   100%;
+  padding:                  20px;
+  gap:                      10px;
+
+}
+
+.section__starwars > div{
+  border: 3px solid #c5780600;
+  border-radius: 5px;
+  padding: 8px;
+}
+
+
+.item1__starwars { 
+  flex-grow:0;
+}
+    
+.item2__starwars { 
+  align-self:auto;
+}
+    
+
+
+
+    .title__productos__consolas{
+      padding:              13px;
+      display:              flex;
+      width:                1133px;
+      justify-content:      space-between;
+      align-items:          center;
+    }
+    
+    h2{
+      font-size:                38px;
+    }
+    
+    a{
+      text-decoration:          none;
+      font-family:             'Raleway';
+      font-size:                16px;
+    }
+    
+    .section__consolas {
+      display:                  flex;
+      justify-content:          center; 
+      align-items:              flex-start;  
+      flex-direction:           row; 
+      flex-wrap:                wrap; 
+      align-content:            stretch;
+      background:            #F5F5F5;
+      height:                   100%;
+      padding:                  20px;
+      gap:                      10px;
+    
+    }
+    
+    .section__consolas > div{
+      border: 3px solid #c5780600;
+      border-radius: 5px;
+      padding: 8px;
+    }
+    
+    
+    .item1__consolas { 
+      /* flex:0 1 auto; */
+      flex-grow:0;
+    }
+        
+    .item2__consolas{ 
+      /* flex:0 1 auto; */
+      align-self:auto;
+    }
+        
+
+
+    
+    .title__productos__diversos{
+      padding:              13px;
+      display:              flex;
+      width:                1133px;
+      justify-content:      space-evenly;
+      align-items:          center;
+      
+    }
+    
+    h2{
+     
+      font-size:                38px;
+    }
+    
+    a{
+      text-decoration:          none;
+      font-family:             'Raleway';
+      font-size:                16px;
+      align-items:              flex-end;
+    }
+    
+    .section__diversos {
+      display:                  flex;
+      justify-content:          center; 
+      align-items:              flex-start;  
+      flex-direction:           row; 
+      flex-wrap:                wrap; 
+      align-content:            stretch;
+      background:            #F5F5F5;
+      height:                   100%;
+      padding:                  20px;
+      gap:                      10px;
+    
+    }
+    
+    .section__diversos > div{
+      border: 3px solid #c5780600;
+      border-radius: 5px;
+      padding: 8px;
+    }
+    
+    
+    .item1__diversos { 
+      /* flex:0 1 auto; */
+      flex-grow:0;
+    }
+        
+    .item2__diversos{ 
+      /* flex:0 1 auto; */
+      align-self:auto;
+    }
+        
+
+
+
+
+
+
+    
+    
+    footer{
+      margin:               0 auto;
+      background:        #EAF2FD;
+      padding:              20px;
+      display:              flex;
+      width:                auto;
+      justify-content:      space-evenly;
+      align-items:          center;
+    }
+    
+    h2{
+      font-size:                38px;
+    }
+    
+    li {
+      list-style:               none;
+      text-decoration:          none;
+      font-family:             'Raleway';
+      font-size:                16px;
+      font-weight:              normal;
+      line-height:              32px;
+      color:                    #00000;
+    }
+    
+    .section__footer {
+      display:                  flex;
+      justify-content:          center; 
+      align-items:              flex-start;  
+      flex-direction:           row; 
+      flex-wrap:                wrap; 
+      align-content:            stretch;
+      background:            #F5F5F5;
+      height:                   100%;
+      padding:                  20px;
+      gap:                      10px;
+    
+    }
+    
+    .section__footer > div{
+      border: 3px solid #c5780600;
+      border-radius: 5px;
+      padding: 8px;
+    }
+    
+    
+    .item1__footer { 
+      /* flex:0 1 auto; */
+      flex-grow:0;
+    }
+        
+    .item2__footer{ 
+      /* flex:0 1 auto; */
+      align-self:auto;
+    }
+        
+
+
+p{
+  font-size:              16px;
+}
+
+
+    .form-container {
+      padding:                  20px;
+      border-radius:            5px;
+      width:                    520px;
+  }
+
+  .form-container input[type="text"],
+  .form-container textarea {
+      width:                    100%;
+      padding:                  15px;
+      margin-bottom:            10px;
+      border:                   1px solid #ccc;
+      border-radius:            3px;
+  }
+
+  .form-container button {
+      width:                    144px;
+      height:                   55px;
+      background-color:      #2A7AE4;
+      color:                 #ffffff;
+      padding:                 10px 15px;
+      border:                  none;
+      border-radius:           3px;
+      cursor:                  pointer;
+  }
+
+  .form-container button:hover {
+      border-color:             #2A7AE4;
+  }
+
+
+
+  .copyright__desarrollado{
+    padding:          32px;
+    text-align:       center;
+    margin:           0 auto;
+  }
